@@ -6,7 +6,7 @@
 .clock{
     width: 500px;
     height: 500px;
-    background: #00ffff;
+    background: yellow;
     display: inline-block;
     border-radius: 50%;
     border: 10px dashed#000;
@@ -43,7 +43,7 @@
     width: 14px;
     left: 240px;
     top: -430px;
-    background: #ffffff;
+    background: blue;
     border-radius: 5px;
     z-index: 1;
     animation: hour_anim 43200slinear infinite;
@@ -83,8 +83,8 @@
     top: -580px;
 }
 .seven{
-    top: -691px;
-    left: -116px;
+    top: -680px;
+    left: -114px;
 }
 .eight{
     top: -840px;
@@ -103,5 +103,5 @@
     left: -123px;
 }
 .twelve{
-    top: -1450px;
+    top: -1440px;
 }
