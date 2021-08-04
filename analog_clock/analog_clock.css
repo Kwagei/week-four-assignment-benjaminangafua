@@ -16,6 +16,9 @@ body {
     position: relative;
 }
 
+
+/*Hands setting  */
+
 #hands {
     margin-top: 1%;
     margin-left: 49%;
@@ -64,6 +67,9 @@ body {
     animation: hour_anim 43200slinear infinite;
 }
 
+
+/* Rotational animation */
+
 @keyframes sec_anim {
     from {
         transform: rotatez(0deg);
@@ -101,6 +107,9 @@ body {
     z-index: 6;
 }
 
+
+/* Responsiveness */
+
 @media(max-width:940px) {
     #intro {
         margin-top: 10%;
@@ -119,6 +128,7 @@ body {
     img {
         height: 20%;
     }
+    /* Hands */
     #hands {
         margin-top: 55%;
         margin-left: 48%;
